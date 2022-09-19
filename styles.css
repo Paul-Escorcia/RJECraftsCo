@@ -1,0 +1,95 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 2000px;
+    padding-right: 10px;
+    padding-left:  10px;
+  }
+.CompanyName{
+    display:inline-block;
+}
+.navBar {
+    text-align: right;
+    display:inline-block;
+    float: right;
+}
+.navBar li{
+    padding-top: 20px;
+    display: inline-block;
+}
+.navBar a{
+    display:inline-block
+}
+header{
+    margin: 0 10px;
+}
+
+.BannerOne{
+    background-color: rgb(51, 51, 51);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    background-image: url('/images/Page\ 2.png');
+    height: 480px;
+
+}
+
+.AboutUs{
+    background-color: rgb(74, 101, 189);
+    color:white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.Products{
+    padding-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 600px;
+}
+
+.Product1{
+    flex:1;
+}
+
+.Product2{
+    flex:2;
+}
+
+.Product3{
+    flex:3;
+}
+.FeaturedProducts img{
+    max-height: 400px;
+    max-width: 450px;
+}
+
+.FeaturedProducts h2{
+    text-align: center;
+}
+
+.SocialBar{
+    background-color: rgb(51, 51, 51);
+    width: 2000px;
+    text-align: center;
+    display:inline-block;
+}
+.SocialBar li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.SocialBar img{
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.SocialBar p{
+    color: white;
+}
