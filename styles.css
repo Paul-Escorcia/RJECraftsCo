@@ -14,7 +14,6 @@ body {
 }
 .navBar {
     text-align: right;
-    display:inline-block;
     float: right;
 }
 .navBar li{
@@ -33,17 +32,26 @@ header{
     color:white;
     text-align: center;
     padding: 10px;
-    background-image: url('/images/Page\ 2.png');
+    background-image: url('images/Page 2.png');
     height: 480px;
-
 }
 
-.AboutUs{
+.AboutUs,.contact-us{
     background-color: rgb(74, 101, 189);
     color:white;
     text-align: center;
     padding: 10px;
 
+}
+
+.contact-us img{
+    max-height: 30px;
+    margin-top: 10px;
+}
+
+.email_link{
+    color: white;
+    margin-bottom: 100px;
 }
 
 .Products{
@@ -96,3 +104,63 @@ header{
 .SocialBar p, .SocialBar a{
     color: white;
 }
+
+.Contact-heading, .form-container p{
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+fieldset{
+    border: 10px double rgb(0, 0, 0);
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: inline-block;
+    font-weight: bold;
+}
+
+textarea{
+    width:100%;
+    height: 300px; 
+}
+
+.form-container p{
+    font-weight: bold;
+}
+
+.List li{
+    display: inline-block;
+}
+
+#button {
+    display: block;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#344fc7;
+    border-radius: 5px;
+    font: inherit;
+    color: white;
+    margin: 0 auto;
+  }
+#button:focus {
+    outline: 2px solid gray;
+    background-color:#b8c5ff;
+    font-weight: bold;
+    color: white;
+}
+
+#button:hover {
+    background-color: #2a91cc;
+    box-shadow: 3px 3px 5px grey;
+  }
+
+#name, #email{
+    width: 350px;
+}
+
+  
