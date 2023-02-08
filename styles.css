@@ -70,8 +70,11 @@ header{
     max-width: 450px;
 }
 
-.FeaturedProducts h2{
+.FeaturedProducts h2, .FeaturedProducts p{
     text-align: center;
+}
+.FeaturedProducts p{
+    font-size:x-large
 }
 
 .SocialBar{
@@ -90,6 +93,6 @@ header{
     padding-right: 10px;
     display: inline-block;
 }
-.SocialBar p{
+.SocialBar p, .SocialBar a{
     color: white;
 }
