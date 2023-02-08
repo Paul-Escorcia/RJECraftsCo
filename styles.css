@@ -14,15 +14,14 @@ body {
 }
 .navBar {
     text-align: right;
-    float: right;
+    display: inline-block;
+    margin-left: 74%;
 }
 .navBar li{
     padding-top: 20px;
     display: inline-block;
 }
-.navBar a{
-    display:inline-block
-}
+
 header{
     margin: 0 10px;
 }
@@ -113,11 +112,6 @@ form{
     margin: 0 auto;
     margin-bottom: 50px;
 }
-fieldset{
-    border: 10px double rgb(0, 0, 0);
-    padding: 40px;
-    margin-bottom: 10px;
-}
 
 label{
     display: inline-block;
@@ -126,14 +120,15 @@ label{
 
 textarea{
     width:100%;
-    height: 300px; 
+    height: 300px;
+    margin-bottom: 10px; 
 }
 
 .form-container p{
     font-weight: bold;
 }
 
-.List li{
+label[for="name"]label[for="email"]{
     display: inline-block;
 }
 
@@ -159,8 +154,27 @@ textarea{
     box-shadow: 3px 3px 5px grey;
   }
 
-#name, #email{
+input[type=text]{
     width: 350px;
 }
 
-  
+@media screen and (max-width:480px) {
+    .CompanyName{
+        margin-left: 20%;
+    }
+    .navBar{
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .navBar a{
+        display: inline-block;
+    }
+    .BannerOne{
+        background-position: center;
+    }
+    .AboutUs{
+        font-size: smaller;
+    }
+
+}
