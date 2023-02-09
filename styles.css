@@ -1,0 +1,360 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 2000px;
+    padding-right: 10px;
+    padding-left:  10px;
+  }
+
+.CompanyName{
+    display:inline-block;
+}
+.navBar {
+    text-align: right;
+    display: inline-block;
+    margin-left: 74%;
+}
+.navBar li{
+    padding-top: 20px;
+    display: inline-block;
+}
+
+header{
+    margin: 0 10px;
+}
+
+.BannerOne{
+    background-color: rgb(51, 51, 51);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    background-image: url('images/Page 2.png');
+    height: 480px;
+}
+
+.AboutUs,.contact-us{
+    background-color: rgb(74, 101, 189);
+    color:white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.contact-us img{
+    max-height: 30px;
+    margin-top: 10px;
+}
+
+.email_link{
+    color: white;
+    margin-bottom: 100px;
+}
+
+.Products{
+    padding-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 600px;
+}
+
+.Product1{
+    flex:1;
+}
+
+.Product2{
+    flex:2;
+}
+
+.Product3{
+    flex:3;
+}
+.FeaturedProducts img{
+    max-height: 400px;
+    max-width: 450px;
+}
+
+.FeaturedProducts h2, .FeaturedProducts p{
+    text-align: center;
+}
+.FeaturedProducts p{
+    font-size:x-large
+}
+
+footer{
+    background-color: rgb(51, 51, 51);
+    width: 2000px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+footer img{
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+#Contact {
+    padding-left: 50px;
+}
+
+#Contact img {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#Contact{
+    display: inline-block;
+}
+
+.SocialBar{
+    text-align: right;
+    display: inline-block;
+    flex-grow: 1;
+}
+.SocialBar li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.SocialBar p, .SocialBar a{
+    color: white;
+    padding-right: 20px;
+}
+
+.SocialBar p{
+    margin-top: 100px;
+}
+/* Section below is used for contact page. Uncomment if contact-us.html is in use. */ 
+
+/*.Contact-heading, .form-container p{
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+label{
+    display: inline-block;
+    font-weight: bold;
+}
+
+textarea{
+    width:100%;
+    height: 300px;
+    margin-bottom: 10px; 
+}
+
+.form-container p{
+    font-weight: bold;
+}
+
+label[for="name"]label[for="email"]{
+    display: inline-block;
+}
+
+#button {
+    display: block;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#344fc7;
+    border-radius: 5px;
+    font: inherit;
+    color: white;
+    margin: 0 auto;
+  }
+#button:focus {
+    outline: 2px solid gray;
+    background-color:#b8c5ff;
+    font-weight: bold;
+    color: white;
+}
+
+#button:hover {
+    background-color: #2a91cc;
+    box-shadow: 3px 3px 5px grey;
+  }
+
+input[type=text]{
+    width: 350px;
+}*/
+
+@media (min-width: 780px) and (max-width: 1366px) {
+    body{
+        width:90%;
+    }
+
+
+    .navBar{
+        margin-left: 58%;
+    }
+    .BannerOne{
+        background-position: center;
+        background-size: 120;
+    }
+
+    .Products{
+        width: 20%;
+        
+    }
+
+    .Product2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    #Contact{
+        width:50%
+    }
+
+    .SocialBar p{
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px){
+    *{
+        font-size: larger;
+    }
+    
+    body{
+        width: 750px;
+    }
+    .CompanyName{
+        font-size: 250%;
+        margin-left: 25%;
+    }
+    .navBar{
+        font-size: large;
+        margin-left: 12%;
+        margin-bottom: 10px;
+    }
+
+    .navBar a{
+        display: inline-block;
+    }
+    .BannerOne{
+        background-position: top;
+        background-size: 370%;
+        padding-bottom: 20%;
+    }
+    .AboutUs{
+        font-size: smaller;
+    }
+
+    .Products{
+        display: inline;
+    }
+    .Product1 img, .Product3 img{
+        margin-left: 30%;
+    }
+
+    .Product2 img{
+        margin-left: 20%;
+    }
+
+    .FeaturedProducts p{
+        font-size: larger;
+    }
+
+    footer{
+        width: 750px;
+        
+    }
+    #Contact p{
+        width: 700px;
+    }
+
+    #Contact img{
+        margin-left: 10%;
+    }
+
+    .SocialBar ul {
+        padding-right: 45px;
+        margin-top: 50px;
+    }
+
+    .SocialBar p{
+        width: 700px;
+        margin-left: 3%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    body{
+        width: 360px;
+    }
+    .CompanyName{
+        margin-left: 25%;
+    }
+    .navBar{
+        margin-left: 2%;
+    }
+
+    .navBar a{
+        display: inline-block;
+    }
+    .BannerOne{
+        background-position: center;
+    }
+    .AboutUs{
+        font-size: smaller;
+    }
+
+    .Products{
+        display: inline;
+    }
+    .Product1 img, .Product3 img{
+        margin-left: 20px;
+    }
+
+    .Product2 img{
+        max-width: 360px;
+    }
+
+    .FeaturedProducts p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    footer{
+        width: 360px;
+    }
+    #Contact p{
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    .SocialBar{
+        margin-bottom: 10%;
+    }
+
+    .SocialBar ul {
+        padding-right: 45px;
+        display: block;
+        margin-top: 30%;
+    }
+
+    .SocialBar p{
+        width: 180px;
+        margin-left: 5%;
+        text-align: center;
+        display: inline-flexbox;
+    }
+
+}
